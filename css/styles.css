@@ -46,6 +46,7 @@ h2{  padding-bottom: 5%;
 .title-image {
     width:60%;
     transform: rotate(25deg);
+    left: 30%;
 }
 /*features Section*/
 #features{
@@ -99,6 +100,24 @@ color: #fff;
 }
 .pricing-column{
     padding: 3% 2%;
+}
+.simple-afordabl{
+    font-family: 'Ubuntu';  
+}
+#cta{
+    color: #fff;
+    padding:20px 10px;
+    background-color:#ff4c68;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    padding: 20px 10px;
+}
+.font-awosome{
+    margin: 20px 10px;
 }
 
 
