@@ -1,33 +1,44 @@
 body{
     font-family: "Ubuntu";
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'ubuntu', sans-serif;
+}
+.p{
+    color: #8f8f8f;
+}
+/*        Headings */
+.big-heading{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 3.5rem;
+   line-height: 1.5;
 }
 
-#title{
-   color: #fff;
-    background-color: #ff4c68;
-}
-h1{ 
-    font-family: 'Ubuntu', sans-serif; 
-     font-size: 3.5rem;
-    line-height: 1.5;
-}
-h2{  padding-bottom: 5%;
-    font-family:'Ubuntu', Bold;
-    font-size: 2rem;
-    line-height: 1.5rem;
-}
-.h3{
-    font-family: "Monster-Black";
+.section-heading{
+font-size: 3rem;
+line-height: 1.5;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
+
+/*   Title Section*/
+#title{
+    text-align: left;
+    color: #fff;
+     background-color: #ff4c68;
+ }
+ #title.container-fluid{
+    padding: 3% 15% 7%;
+}
+
 /* Navigation Bar*/
 .navbar{
     padding-bottom: 4.5rem;
 }
 .nav-item{
-    padding: 0 18px;
+    
 }
 .nav-link{
     font-size: 1.2rem;
@@ -49,17 +60,12 @@ h2{  padding-bottom: 5%;
     left: 30%;
 }
 /*features Section*/
-#features{
-    padding: 7% 15%;
-}
-.feature-box{
-    text-align: center;
-    padding: 5%;
+
+.features-title{
+    font-family: "Monster-Black";
 }
 
-.p{
-    color: #8f8f8f;
-}
+
 .icon{
     color: #ef8172;
     margin: 1rem;
@@ -67,10 +73,10 @@ h2{  padding-bottom: 5%;
 .icon:hover{
     color: #ff4c68;
 }
-  /*testimonials Section*/
-#testimonials{
 
-text-align: center;
+  /*testimonials Section*/
+
+#testimonials{
 background-color:#ef8172 ;
 color: #fff;
 }
@@ -79,42 +85,44 @@ color: #fff;
     border-radius:100%;
     margin:20px;
 }
-.carousel-item{
-    padding: 7% 15%;
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* Press Section*/
 #press{
     background-color:#ef8172 ;
-    text-align: center;
-    padding-bottom: 3%;
+    
 }
 .press-logo{
     width:15%;
     margin: 20px 20px 50px;
 }
-/* pricing*/
-#pricing{
- padding: 100px;
- text-align: center;
-}
-.pricing-column{
-    padding: 3% 2%;
-}
+
+
+        /* pricing*/
+
 .simple-afordabl{
     font-family: 'Ubuntu';  
 }
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+       /* Call to action*/
+
 #cta{
     color: #fff;
-    padding:20px 10px;
     background-color:#ff4c68;
-    text-align: center;
 }
+      /* footer */
+
 #footer{
-    text-align: center;
     background-color: #fff;
     color: black;
-    padding: 20px 10px;
 }
 .font-awosome{
     margin: 20px 10px;
